@@ -16,8 +16,6 @@
 /// 只能输入数字、字母、汉字
 #define DEF_NUMBERCHARCHINA [self specialSymbolsAction]
 
-
-
 @interface ViewController () <UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
